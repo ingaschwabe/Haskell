@@ -1,0 +1,20 @@
+Haskell Code
+
+We can stuff values into tuples: (“inga”, 41, “hello”)
+() = tulpes, [] = lists
+You can have a list of numbers, or a list of characters, but you can't have a list containing a mix of numbers and characters. In a tuple, however, you can throw anything in!
+characters are written like 'a' and strings (lists of characters) are written like "a".
+
+you can make a new list with (:) that joins two values together, like:
+1 : [2,3]
+But we can't do this with tuples! You can only write a tuple and then look at what's inside. 
+You can't make new ones on the fly like a list.
+
+Solve an equation:
+let x = 4 in x * x
+let square x = x * x in square 10 100
+let square x = x in map square [1..10]
+[1,2,3,4,5,6,7,8,9,10]
+
+let villain = (28,"chirs") in fst villain
+let declare variable in expression 
